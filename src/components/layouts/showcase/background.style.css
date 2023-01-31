@@ -1,0 +1,34 @@
+.background-container{
+    height: 100vh;
+    width: 100%;
+    background-image:url('../../../assets/book-background.jpg');
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color:rgba(0,0,0,0.4);
+    position:absolute;
+    top:0;
+}
+
+.background-content{
+    width: fit-content;
+    z-index: 1;
+}
+.background-content h1, .background-content p{
+    color: azure;
+    text-align: center;
+    padding-bottom: 10px ;
+}
+
+.background-content span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
